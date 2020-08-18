@@ -6,7 +6,7 @@ Started in the 2019-2020 season.
 # About
 The goal of our app is to provide additional safety, controllability, and visual appeal. The dashboard gets all of its information through two Teensy 3.6 microcontrollers. We used the Android Studio development software to create the dashboard app. This app comprises three different tabs: drive-time, data logging, and troubleshooting. 
 # Drive-Time Tab
-The drive-time tab consists of a speedometer, power gauge, and battery life gauge. This will be the primary tab shown while the car is being driven.  
+The drive-time tab consists of a speedometer, power gauge, and battery life gauge. This will be the primary tab shown while the car is being driven. There is also space on the main screen for a warning light. This light will appear if a fault goes off in the car. For example, if the motors are overheated then a motor-over-temperature fault will go off. The caution light will then be displayed on the main screen of the dashboard. 
 # Data Logging Tab
 The data logging tab provides a comprehensive list of all data points from different parts of the car. These data points are then displayed on this tab. These data points are important to assess afterward to see driving patterns and possible ways to correct any abnormal tendencies the car may experience while on the road. These data points are important enough to record, but not necessarily important enough to be displayed on the primary tab. For example, active aero wing angle, motor temperature, etc. All data points will then be exported to a CSV file where it can be sent wirelessly to a spreadsheet online. 
 # Troubleshooting Tab
